@@ -1,0 +1,22 @@
+{
+  "name": "typetag-fn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjiayz/typetag-fn.git"
+  },
+  "author": "hjiayz",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hjiayz/typetag-fn/issues"
+  },
+  "homepage": "https://github.com/hjiayz/typetag-fn#readme",
+  "dependencies": {
+    "typetag": "^2.0.0"
+  }
+}
