@@ -1,14 +1,9 @@
-module.exports = function (t, isdebug) {
+let fn = module.exports = function (t, isdebug) {
     t.fn = (tparam, tresult, body) => {
         t.type
             .assert(tparam)
             .assert(tresult);
-        let f = (param) => {
-            tparam.assert(param);
-            let res = body(param);
-            tresult.assert(res);
-            return res;
-        }
+        let f = (param) => tresult.parse(body(tparam.parse(param)));
         f.meta = {
             param: tparam,
             result: tresult
@@ -16,3 +11,4 @@ module.exports = function (t, isdebug) {
         return f;
     }
 }
+fn.name = "fn";
