@@ -11,4 +11,4 @@ let fn = module.exports = function (t, isdebug) {
         return f;
     }
 }
-fn.name = "fn";
+fn.tag = "fn";

@@ -1,6 +1,6 @@
 {
   "name": "typetag-fn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/hjiayz/typetag-fn#readme",
   "dependencies": {
-    "typetag": "^2.0.2"
+    "typetag": "^2.0.3"
   }
 }
