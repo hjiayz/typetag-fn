@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/hjiayz/typetag-fn#readme",
   "dependencies": {
-    "typetag": "^2.0.3"
+    "typetag": "^2.0.4"
   }
 }
